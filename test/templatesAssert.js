@@ -1,36 +1,36 @@
 const assert = require("chai").assert;
 describe("chai assert template by abin", () => {
-  it("equal", () => {
+  xit("equal", () => {
     assert.equal(1, 1);
   });
-  it("deepStrictEqual", () => {
+  xit("deepStrictEqual", () => {
     assert.deepStrictEqual("abin", "abin");
   });
-  it("ok", () => {
+  xit("ok", () => {
     assert.ok(true);
   });
-  it("typeOf number", () => {
+  xit("typeOf number", () => {
     assert.typeOf(false, "boolean");
   });
-  it("typeOf number", () => {
+  xit("typeOf number", () => {
     assert.typeOf(5, "number");
   });
-  it("typeOf string", () => {
+  xit("typeOf string", () => {
     assert.typeOf("Abin", "string");
   });
-  it("typeOf object", () => {
+  xit("typeOf object", () => {
     assert.typeOf(["abin", "bibin", "albin"], "array");
   });
-  it("typeOf object", () => {
+  xit("typeOf object", () => {
     assert.typeOf({ name: "Abin" }, "object");
   });
-  it("lengthOf", () => {
+  xit("lengthOf", () => {
     assert.lengthOf("Abin", 4);
   });
-  it("have property", () => {
+  xit("have property", () => {
     assert.property({ name: "Abin" }, "name");
   });
-  it("lengthOf object", () => {
+  xit("lengthOf object", () => {
     const data = { name: "Abin" };
     assert.lengthOf(data.name, 4);
   });

@@ -15,10 +15,10 @@ describe("mocha hooks template by abin", () => {
   afterEach(() => {
     console.log("\truns after each test in this block");
   });
-  it("equal", () => {
+  xit("equal", () => {
     assert.equal(1, 1);
   });
-  it("deepStrictEqual", () => {
+  xit("deepStrictEqual", () => {
     assert.deepStrictEqual("abin", "abin");
   });
 });
